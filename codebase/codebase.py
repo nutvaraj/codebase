@@ -9,5 +9,5 @@ def predict(row, weights):
         activation += weights[i + 1] * row[i]
     if activation >= 0.0:
         return 1
-    else:
+    else
         return 0.0
